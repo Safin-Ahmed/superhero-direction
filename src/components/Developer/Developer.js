@@ -17,7 +17,7 @@ const Developer = (props) => {
             <h3>Level: <span>{level}</span></h3>
             <h3>Country: <span>{country}</span></h3>
             <h3>Salary: <span>$<span className="salary">{salary}</span></span></h3>
-            <button className="add-to-cart">{cartIcon} Add To Cart</button>
+            <button onClick = {() => props.cartHandler(props.dev)} className="add-to-cart">{cartIcon} Add To Cart</button>
             <button><a href= {facebook ? `${facebook}` : `#`}>{facebookIcon}</a></button>
             <button><a href= {youtube ? `${youtube}` : `#`}>{youtubeIcon}</a></button>
         </div>

@@ -1,0 +1,9 @@
+.cart {
+    background: #5a53c5;
+    color: #fff;
+    padding: 20px ;
+    position: fixed;
+}
+.cart h2 {
+    font-size: 27px;
+}
