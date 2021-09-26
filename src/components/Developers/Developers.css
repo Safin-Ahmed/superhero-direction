@@ -1,0 +1,11 @@
+.main-container {
+    display: grid;
+    grid-template-columns: 10fr 5fr;
+    padding-top: 30px;
+}
+.developers-container {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}

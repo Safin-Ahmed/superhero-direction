@@ -1,0 +1,13 @@
+.developer {
+    background-color: #fff;
+    box-shadow: 10px 10px 8px #1414140d;
+    padding: 15px 45px;
+    border-radius: 15px;
+    margin-bottom: 30px;
+    margin-right: 30px;
+}
+.developer img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}

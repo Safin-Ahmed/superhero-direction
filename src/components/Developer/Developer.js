@@ -1,4 +1,5 @@
 import React from 'react';
+import './Developer.css';
 
 const Developer = (props) => {
     const {img, key, name, skill, level, country, salary, facebook, youtube} = props.dev;

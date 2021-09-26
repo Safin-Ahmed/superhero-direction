@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import Developer from '../Developer/Developer';
+import './Developers.css';
 
 const Developers = () => {
     const [developers, setDevelopers] = useState([]);
