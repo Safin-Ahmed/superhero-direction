@@ -1,0 +1,15 @@
+.header-container {
+    background-color: #ffffff;
+    width: 80%;
+    margin: auto;
+    box-shadow: 10px 10px 8px #1414140d;
+    padding: 5px;
+    border-radius: 15px;
+}
+.header-container h1, p {
+    color: #4d49a5;
+}
+.header-container p {
+    font-size: 20px;
+    font-weight: 500;
+}
