@@ -5,9 +5,43 @@
     border-radius: 15px;
     margin-bottom: 30px;
     margin-right: 30px;
+    border: 2px solid #4d49a5;
+    transition: all 0.3s ease; 
 }
 .developer img {
     width: 150px;
     height: 150px;
     border-radius: 50%;
+}
+.developer h3{
+    color: #000;
+}
+.developer h3 span {
+    color: #4d49a5;
+}
+.developer button {
+    background: #fff;
+    border: none;
+    
+    margin-right: 15px;
+}
+.developer button:last-child {
+    margin-right: 0;
+}
+.developer button a {
+    text-decoration: none;
+    color: #4d49a5;
+}
+button.add-to-cart {
+    background-color: #4d49a5;
+    padding: 10px 30px;
+    color: #fff;
+    margin-right: 0;
+    width: 100%;
+    margin: auto;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+.developer:hover{
+    transform: scale(1.1);
 }
