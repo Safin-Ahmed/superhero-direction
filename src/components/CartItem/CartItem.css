@@ -1,0 +1,29 @@
+.cart-item {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+    background-color: #fff;
+    align-items: center;
+    justify-content: flex-start;
+    position: relative;
+    margin-bottom: 20px;
+}
+.cart-item img {
+    max-width: 100%;
+    width: 120px;
+}
+.cart-item h4 {
+    color: #4d49a5;
+    margin-left: 20px;
+}
+.cart-item button.cross-btn{
+    background-color: red;
+    border:none;
+    outline: none;
+    color: #fff;
+    position: absolute;
+    top:0;
+    right: 0;
+    font-size: 20px;
+    cursor: pointer;
+}

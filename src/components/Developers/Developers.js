@@ -11,9 +11,23 @@ const Developers = () => {
         .then(res => res.json())
         .then(data => setDevelopers(data));
     }, [])
+    
+    const uniquify = devkey => {
+        const key = devkey;
+        for(const item of cart){
+            if(item.key === key){
+                return false;
+            }
+        }
+    }
+
     const handleAddToCart = developer => {
-        const newCart = [...cart, developer];
-        setCart(newCart);
+            const isUnique = uniquify(developer.key);
+            if(isUnique === false){
+                return;
+            }
+            const newCart = [...cart, developer];
+            setCart(newCart);     
     }
     return (
         <div className = "main-container">
