@@ -1,9 +1,24 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
+import Developer from '../Developer/Developer';
 
 const Developers = () => {
+    const [developers, setDevelopers] = useState([]);
+    useEffect(() => {
+        fetch('./dev.JSON')
+        .then(res => res.json())
+        .then(data => setDevelopers(data));
+    }, [])
+
     return (
-        <div>
-            <h2>Hello This is developer component</h2>
+        <div className = "main-container">
+            <div className = "developers-container">
+                {
+                    developers.map(developer => <Developer dev = {developer}></Developer>)
+                }
+            </div>
+            <div className = "cart-container">
+                <h2>This is Cart</h2>
+            </div>
         </div>
     );
 };
