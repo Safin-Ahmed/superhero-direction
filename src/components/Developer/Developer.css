@@ -41,6 +41,7 @@ button.add-to-cart {
     margin: auto;
     margin-bottom: 15px;
     cursor: pointer;
+    border-radius: 10px;
 }
 .developer:hover{
     transform: scale(1.1);
